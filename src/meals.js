@@ -1,6 +1,6 @@
 import shiroPic from "./assets/shiro.jpg";
 import tibsPic from "./assets/tibs.jpeg";
-import genfoPic from "./assets/genfo.jpeg"
+import genfoPic from "./assets/genfo.jpeg";
 
 
 function load_meals(){
@@ -17,7 +17,7 @@ function load_meals(){
     tibsLabel.textContent = "Tibs";
     genfoLabel.textContent = "Genfo";
 
-    const shiroImage = document.createElement('img');
+    const shiroImage = document.createElement("img");
     const tibsImage = document.createElement('img');
     const genfoImage = document.createElement('img');
 
