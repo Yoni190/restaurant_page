@@ -1,6 +1,7 @@
 import {initial_load} from "./content.js";
 import {load_meals} from "./meals.js";
 import {load_about} from "./about.js";
+import {load_contact} from "./contact.js";
 
 initial_load();
 
@@ -21,3 +22,9 @@ about.addEventListener('click', ()=>{
     document.querySelector('#content').innerHTML = "";
     load_about();
 });
+
+const contact = document.querySelector('#contact');
+contact.addEventListener('click', ()=>{
+    document.querySelector('#content').innerHTML = "";
+    load_contact();
+})
