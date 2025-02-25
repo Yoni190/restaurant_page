@@ -2,6 +2,7 @@ import {initial_load} from "./content.js";
 import {load_meals} from "./meals.js";
 import {load_about} from "./about.js";
 import {load_contact} from "./contact.js";
+import "./style.css";
 
 initial_load();
 
