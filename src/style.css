@@ -30,7 +30,6 @@ nav {
 }
 
 #content {
-    background-color: bisque;
     margin: 60px;
     border-radius: 30px;
 }
@@ -40,20 +39,18 @@ body{
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
-header, #content{
+header, #content, footer{
     border: 2px solid black;
     padding: 20px;
 }
 header, footer{
     text-align: center;
 }
-header{
+header, footer, #content{
     background-color: bisque;
 }
 footer{
     min-height: 50px;
-    background-color: brown;
-    color: white;
 }
 
 
